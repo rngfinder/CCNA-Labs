@@ -4,7 +4,7 @@
 
 #DHCP server is on R1
 
-#SW1 and SW2 has standard dhcp snooping set up via vlan 1, option 82 is allowed
+#SW1 and SW2 have standard dhcp snooping setup via vlan 1, option 82 is allowed
 
 #PCs under Alpine Linux, dhcp mode. To renew IP => sudo udhcpc
 
