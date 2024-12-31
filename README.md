@@ -1,12 +1,11 @@
-#Cisco CML 2.8 free tier
+Made in Cisco CML 2.8 free tier
 
-#DHCP snooping lab 
+It is DHCP snooping lab 
 
-#DHCP server is on R1
+DHCP server is on R1
 
-#SW1 and SW2 have standard dhcp snooping setup via vlan 1, option 82 is allowed
+SW1 and SW2 have standard dhcp snooping config via vlan 1, option 82 is allowed
 
-#PCs under Alpine Linux, dhcp mode. To renew IP => sudo udhcpc
+Both PCs under Alpine Linux, IPv4 dhcp mode. A command to renew IPs => sudo udhcpc
 
-#Result: 1) no dhcp binding tables, 2) PCs renew IPs as usual 3) 82 option does't work
-
+Result: 1) no dhcp binding data on both switches; 2) neither SW2 nor SW1 add option 82 to messages; 3) PCs renew their IPs as usual
